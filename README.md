@@ -1,5 +1,4 @@
-rnd - A program that accepts new-line delimited text over stdin and
-randomly chooses one of the items or shuffles the entire list.
+rust-utils - Utility programs written in Rust.
 
 # Examples
 
@@ -17,7 +16,7 @@ Shuffle entire list:
 ```
 echo "one
 two
-three" | target/debug/rnd -s
+three" | target/debug/shf
 two
 one
 three
