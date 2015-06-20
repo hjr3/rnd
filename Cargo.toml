@@ -6,4 +6,11 @@ authors = ["Herman J. Radtke III <hermanradtke@gmail.com>"]
 [dependencies]
 
 rand = "0.3"
-getopts = "0.2"
+
+[[bin]]
+name = "rnd"
+path = "src/rnd/main.rs"
+
+[[bin]]
+name = "shf"
+path = "src/shf/main.rs"
